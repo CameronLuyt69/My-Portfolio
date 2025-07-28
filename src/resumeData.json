@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Cameron Jude Luyt",
-    "occupation": "Jnr Web Developer",
+    "occupation": "Software Developer",
     "image": "me.jpg",
-    "bio": "I am a hard working individual with the capacity to accomplish any task through my creative problem-solving abilities. I have a lifelong passion for technology and am always eager and motivated to broaden my knowledge. I aim to be a productive and efficient team member with the ability to lead as well. My main goal is to become a full-stack developer.",
+    "bio": "Software developer at Securicom, working at the intersection of automation, security, and systems integration. I design and build internal tools, APIs, and reporting engines using .NET Core, C#, Dapper and other SQL services. My focus is creating maintainable, efficient backend services that support security teams and streamline operational workflows. I value clarity, speed, autonomy, and impact in every solution.",
     "email": "cameronluyt30@gmail.com",
     "phone": "081-019-0744",
     "address": {
@@ -38,6 +38,12 @@
   "resume": {
     "education": [
       {
+        "school": "Youth Media Movement – South Africa",
+        "degree": "Multiskill Development Course",
+        "graduated": "2021",
+        "description": "Completed unit standards in ICT fundamentals, SLA compliance, and PC repair. Attended workshops on Unreal Engine and the Fourth Industrial Revolution (University of Johannesburg). Gained experience in version control, organizational development, and Microsoft certifications including Digital Literacy and MTA: Software Development Fundamentals."
+      },
+      {
         "school": "Life Choices Academy",
         "degree": "Web Development",
         "graduated": "2020",
@@ -52,22 +58,32 @@
     ],
     "work": [
       {
-        "company": "Digital Outsource Services",
-        "title": "Technology Intern",
-        "years": "½",
-        "description": "Worked closely with the development teams and provided assistance. Took part in Scrum rituals such as stand ups, planning sessions, demos and retrospectives. Took part in team activities such as collaborative-development and code-reviews."
+        "company": "Securicom IT Solutions",
+        "title": "Software Developer",
+    "startYear": 2022,
+    "endYear": "Present",
+        "description": "Develop and maintain backend and automation services using .NET Core, Web APIs, Entity Framework Core, and SQL. Lead projects including an automated PDF report builder, SQL query builder UI, and API-driven report engines. Build and support integrations for CRM ticket automation, WhatsApp message services, DNS monitoring, and security tools like IP blacklist checking. Collaborate in an Agile team through stand-ups, planning, code reviews, and retrospectives."
       },
       {
-        "company": "Hanover Park Cricket Club",
-        "title": "Score-Keeper",
-        "years": "2",
-        "description": "Kept track of the score, did match reports after each game and organised drinks after each game."
+        "company": "Digital Outsource Services",
+        "title": "Technology Intern",
+    "startYear": 2020,
+    "endYear": 2021,
+        "description": "Worked closely with the development teams and provided assistance. Took part in Scrum rituals such as stand ups, planning sessions, demos and retrospectives. Took part in team activities such as collaborative-development and code-reviews."
       },
       {
         "company": "Yorkshire Cricket Club",
         "title": "Score-Keeper",
-        "years": "1",
+    "startYear": 2019,
+    "endYear": 2018,
         "description": "Kept track of the score."
+      },
+      {
+        "company": "Hanover Park Cricket Club",
+        "title": "Score-Keeper",
+    "startYear": 2016,
+    "endYear": 2018,
+        "description": "Kept track of the score, did match reports after each game and organised drinks after each game."
       }
     ],
     "skills": [
@@ -119,78 +135,79 @@
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "User Profile System",
-        "category": "A site that stores user information in the form of card panels and models. Users are removable. This project was built with HTML, CSS and Bootstrap.",
-        "image": "4 WORK.png",
-        "url": "https://github.com/CameronLuyt69/Assignments/tree/master/WebDesignEndOfModuleProject"
-      },
-      {
-        "title": "IT-Logger",
-        "category": "A site that stores technicians along with tasks they're required to complete and tasks they've completed. This project was created using HTML, CSS, React and more",
-        "image": "2 WORK.png",
-        "url": "https://github.com/CameronLuyt69/Assignments/tree/master/it-logger"
-      },
-      {
-        "title": "GitHub Finder",
-        "category": "A site that fetches GitHub user information. The site displays information such as user profile picture, followers and following, number of repos and gists, a link to the users profile and more. This project was built using HTML, CSS, React and more",
-        "image": "1 WORK.png",
-        "url": "https://github.com/CameronLuyt69/GitHub-Finder",
-        "demo": "https://github-finder-cl-69.netlify.app/"
-      },
-      {
-        "title": "Contact-Keeper",
-        "category": "A site that allows users to create personal/professional accounts. With these accounts users are able to store and manage contacts. This project was built with HTML, CSS, React, MongoDB and more",
-        "image": "3 WORK.png",
-        "url": "https://github.com/CameronLuyt69/Contact-Keeper",
-        "demo": "https://contact-keeper-cl.herokuapp.com/"
-      },
-      {
-        "title": "Contact-Keeper",
-        "image": "3WORK.png",
-        "url": "https://github.com/CameronLuyt69/Contact-Keeper",
-        "demo": "https://contact-keeper-cl.herokuapp.com/"
-      },
-      {
-        "title": "AZ-TECH",
-        "category": "A site that enables users to shop online for items tech related. This site includes features such as a user login system, inventory management, order management, shopping cart system, reviews and more. This project was built using HTML, CSS, React, MongoDB and more",
-        "image": "6 WORK.png",
-        "url": "https://github.com/CameronLuyt69/AZ-TECH",
-        "demo": "https://az-tech.herokuapp.com/"
-      },
-      {
-        "title": "Cameron Jude Luyt",
-        "category": "A site the displays my professional information. This site also includes examples of past projects aswell as a downloadable CV. This project was built with HTML, CSS, React and more",
-        "image": "5 WORK.png",
-        "url": "https://github.com/CameronLuyt69/My-Portfolio",
-        "demo": "https://cameronluyt69.github.io/My-Portfolio/"
-      },
-      {
-        "title": "The Palace Group",
-        "category": "A casino directory/portal website with information about the ins and outs of The Palace Group. This was a group project built with HTML, CSS, Javascript, jQuery and more",
-        "image": "PG.png"
-      },
-      {
-        "title": "The Palace Group",
-        "image": "PGR.png"
-      },
-      {
-        "title": "The Palace Group",
-        "image": "PGL.png"
-      },
-      {
-        "title": "The Palace Group",
-        "image": "PGG.png"
-      },
-      {
-        "title": "King James Digital",
-        "image": "kjd.png"
-      },      
-      {
-        "title": "CAMOGraphy",
-        "image": "camo.png"
-      }
-    ]
+  {
+    "title": "CAMOGraphy",
+    "image": "camo.png"
+  },
+  {
+    "title": "King James Digital",
+    "image": "kjd.png"
+  },      
+  {
+    "title": "The Palace Group",
+    "category": "A casino directory/portal website with information about the ins and outs of The Palace Group. This was a group project built with HTML, CSS, Javascript, jQuery and more",
+    "image": "PG.png"
+  },
+  {
+    "title": "The Palace Group",
+    "image": "PGR.png"
+  },
+  {
+    "title": "The Palace Group",
+    "image": "PGL.png"
+  },
+  {
+    "title": "The Palace Group",
+    "image": "PGG.png"
+  },
+  {
+    "title": "Cameron Jude Luyt",
+    "category": "A site the displays my professional information. This site also includes examples of past projects aswell as a downloadable CV. This project was built with HTML, CSS, React and more",
+    "image": "5 WORK.png",
+    "url": "https://github.com/CameronLuyt69/My-Portfolio",
+    "demo": "https://cameronluyt69.github.io/My-Portfolio/"
+  },
+  {
+    "title": "AZ-TECH",
+    "category": "A site that enables users to shop online for items tech related. This site includes features such as a user login system, inventory management, order management, shopping cart system, reviews and more. This project was built using HTML, CSS, React, MongoDB and more",
+    "image": "6 WORK.png",
+    "url": "https://github.com/CameronLuyt69/AZ-TECH",
+    "demo": "https://az-tech.herokuapp.com/"
+  },
+  {
+    "title": "Contact-Keeper",
+    "image": "3WORK.png",
+    "url": "https://github.com/CameronLuyt69/Contact-Keeper",
+    "demo": "https://contact-keeper-cl.herokuapp.com/"
+  },
+  {
+    "title": "Contact-Keeper",
+    "category": "A site that allows users to create personal/professional accounts. With these accounts users are able to store and manage contacts. This project was built with HTML, CSS, React, MongoDB and more",
+    "image": "3 WORK.png",
+    "url": "https://github.com/CameronLuyt69/Contact-Keeper",
+    "demo": "https://contact-keeper-cl.herokuapp.com/"
+  },
+  {
+    "title": "GitHub Finder",
+    "category": "A site that fetches GitHub user information. The site displays information such as user profile picture, followers and following, number of repos and gists, a link to the users profile and more. This project was built using HTML, CSS, React and more",
+    "image": "1 WORK.png",
+    "url": "https://github.com/CameronLuyt69/GitHub-Finder",
+    "demo": "https://github-finder-cl-69.netlify.app/"
+  },
+  {
+    "title": "IT-Logger",
+    "category": "A site that stores technicians along with tasks they're required to complete and tasks they've completed. This project was created using HTML, CSS, React and more",
+    "image": "2 WORK.png",
+    "url": "https://github.com/CameronLuyt69/Assignments/tree/master/it-logger"
+  },
+  {
+    "title": "User Profile System",
+    "category": "A site that stores user information in the form of card panels and models. Users are removable. This project was built with HTML, CSS and Bootstrap.",
+    "image": "4 WORK.png",
+    "url": "https://github.com/CameronLuyt69/Assignments/tree/master/WebDesignEndOfModuleProject"
+  }
+]
+
   },
   "testimonials": {
     "testimonials": [

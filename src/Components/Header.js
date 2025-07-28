@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Navigation from "./Navigation";
 
 class Header extends Component {
   render() {
@@ -6,10 +7,10 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var city = this.props.data.address.city;
-      var networks = this.props.data.social.map(function (network) {
+      var networks = this.props.data.social.map((network) => {
         return (
           <li key={network.name}>
-            <a href={network.url} target="_black">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
               <i className={network.className}></i>
             </a>
           </li>
@@ -19,53 +20,13 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <Navigation />
 
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h2>
-              I'm a {occupation} based in {city}.
+              A {occupation} based in {city}.
             </h2>
             <hr />
             <ul className="social">{networks}</ul>
